@@ -1,4 +1,4 @@
-# Workflow Platform
+# Lead Workflow Platform
 
 A scalable system to process real-time event streams, aggregate them into fixed time windows, and provide an API for querying the aggregated data.
 
@@ -132,11 +132,9 @@ npm test
 
 ## Design Decisions
 
-- **Dependency Injection**: Using InversifyJS for better testability and loose coupling
 - **Repository Pattern**: Abstracting data access through repository interfaces
 - **Observer Pattern**: Using Pub/Sub for event-driven communication
 - **Factory Pattern**: Creating entities through static factory methods
-- **SOLID Principles**: Following Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion principles
 
 ## Monitoring and Observability
 
